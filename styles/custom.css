@@ -1,0 +1,23 @@
+.page-wrapper{
+    background: #000;
+}
+.logo-text {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    color: #fff;
+}
+.logo-container-text{
+    display: flex!important;
+    align-items: center!important;
+}
+
