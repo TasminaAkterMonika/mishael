@@ -5,11 +5,12 @@ const Scripts = () => {
   return (
     <React.Fragment>
       <Script
-        src="/assets/vendors/jquery/jquery-3.6.0.min.js"
+        src="/assets/vendors/jquery/jquery-3.6.0.min.js" 
+        // strategy="lazyOnload"
         strategy="beforeInteractive"
       />
       <Script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js" strategy="lazyOnload" />
-      <Script src="/assets/bootstrap-select/js/bootstrap-select.min.js" strategy="lazyOnload" />
+      <Script src="/assets/vendors/bootstrap-select/js/bootstrap-select.min.js" strategy="lazyOnload" />
 
       <Script src="/assets/vendors/isotope/isotope.js" strategy="lazyOnload" />
       <Script

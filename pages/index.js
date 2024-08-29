@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.css";
 import React from "react";
 import Scripts from "@/components/Scripts";
 const inter = Inter({ subsets: ["latin"] });
-
+import TestimonialsCarousel from "@/components/TestimonialsCarousel"
 export default function Home() {
   return (
     <>
@@ -35,7 +35,7 @@ export default function Home() {
                         <div className="logo">
                           <a href="index.html">
                             <img
-                              src="assets/images/resources/logo-1.png"
+                              src="assets/images/Mishael.png"
                               alt=""
                             />
                           </a>
@@ -154,54 +154,49 @@ export default function Home() {
             {/* End sidebar widget content */}
             {/*Start Main Header One*/}
             <header className="main-header main-header-two">
-            <div className="main-header-two__inner">
-              <nav className="main-menu main-menu-one">
-                <div className="main-menu__wrapper clearfix">
-                  <div className="auto-container">
-                    <div className="main-menu__wrapper-inner">
-                      <div className="main-header-two__left">
-                        <div className="logo-box-one">
-                          <a href="index.html">
-                            <img
-                              src="assets/images/Mishael.png"
-                              alt="Awesome Logo"
-                              title=""
-                            />
+              <div className="main-header-two__inner">
+                <nav className="main-menu main-menu-one">
+                  <div className="main-menu__wrapper clearfix">
+                    <div className="auto-container">
+                      <div className="main-menu__wrapper-inner">
+                        <div className="main-header-two__left">
+                          <div className="logo-box-one">
+                            <a href="index.html">
+                              <img
+                                src="assets/images/Mishael.png"
+                                alt="Awesome Logo"
+                                title=""
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div className="main-menu-box">
+                          <a href="#" className="mobile-nav__toggler">
+                            <i className="fa fa-bars" />
                           </a>
+                          <ul className="main-menu__list">
+                            <li>
+                              <a href="index.html">Home</a>
+                            </li>
+
+                            <li>
+                              <a href="about.html">About</a>
+                            </li>
+                            <li>
+                              <a href="about.html">Products</a>
+                            </li>
+                            <li>
+                              <a href="contact.html">Contact</a>
+                            </li>
+                          </ul>
                         </div>
                       </div>
-                      <div className="main-menu-box">
-                        <a href="#" className="mobile-nav__toggler">
-                          <i className="fa fa-bars" />
-                        </a>
-                        <ul className="main-menu__list">
-                          
-                                        
-                              <li>
-                                <a href="index.html">Home</a>
-                              </li>
-                             
-                                             
-                          <li>
-                            <a href="about.html">About</a>
-                          </li>
-                          <li>
-                          <a href="about.html">Products</a>
-                        </li>                       
-                          <li>
-                            <a href="contact.html">Contact</a>
-                          </li>
-                        </ul>
-                      </div>
-                 
                     </div>
                   </div>
-                </div>
-              </nav>
-            </div>
-          </header>
-          
-          
+                </nav>
+              </div>
+            </header>
+
             {/*End Main Header One*/}
             <div className="stricky-header stricky-header--one stricked-menu main-menu">
               <div className="sticky-header__content" />
@@ -247,9 +242,8 @@ export default function Home() {
                           <div className="title">
                             <h2>
                               Sustainable <br />
-                              Style{" "}
-                              <br />
-                             Everyday
+                              Style <br />
+                              Everyday
                             </h2>
                           </div>
                         </div>
@@ -292,8 +286,7 @@ export default function Home() {
                           <div className="title">
                             <h2>
                               Sustainable <br />
-                             Style{" "}
-                              <br />
+                              Style <br />
                               Everyday
                             </h2>
                           </div>
@@ -302,11 +295,10 @@ export default function Home() {
                     </div>
                   </div>
                   {/*End Main Slider One*/}
-              
-             
+
                   {/*End Main Slider One*/}
                   {/*Start Main Slider One*/}
-                 
+
                   {/*End Main Slider One*/}
                 </div>
                 {/* <div className="project-one__control-wrap">
@@ -323,30 +315,26 @@ export default function Home() {
             {/*End Main Slider*/}
             {/*Start Brand One */}
             <section className="brand-one">
-            
               <div className="auto-container">
                 <div className="brand-one__inner">
                   <ul>
-      
                     <li>
-                     {/*<a href="#">
+                      {/*<a href="#">
                     
                       <img src="assets/images/Mas AI File-01 (1) 1 (1).png" alt="Brand Logo" className="logo-text" />*/}
-                     
+
                       <a href="#">
-                      
-                      <h1 className="logo-text">MAS</h1>
+                        <h1 className="logo-text">MAS</h1>
                       </a>
                     </li>
                     <li>
-                     <a href="#">
-                      
+                      <a href="#">
                         <h1 className="logo-text">Sauve</h1>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                      <h1 className="logo-text">Delmas</h1>
+                        <h1 className="logo-text">Delmas</h1>
                         {/* <img src="assets/images/brand/brand-1-5.png" alt="#" />*/}
                       </a>
                     </li>
@@ -452,9 +440,9 @@ export default function Home() {
             {/*End Advantages One */}
             {/*Start Counter One */}
             <section className="counter-one">
-              <div className="big-title">
+              {/*  <div className="big-title">
                 <h2>Counters</h2>
-              </div>
+              </div>*/}
               <div className="auto-container">
                 <div className="row">
                   {/*Start Counter One Single*/}
@@ -594,9 +582,8 @@ export default function Home() {
                                 </div>
                                 <div className="title-box">
                                   <h2>
-                                  Optimal quality at <br />
-                                  competitive prices. 
-                                 
+                                    Optimal quality at <br />
+                                    competitive prices.
                                   </h2>
                                 </div>
                               </div>
@@ -612,9 +599,8 @@ export default function Home() {
                                 <div className="number-box">01</div>
                                 <div className="title-box2">
                                   <h2>
-                                  Optimal quality at <br />
-                                  competitive prices. 
-                                 
+                                    Optimal quality at <br />
+                                    competitive prices.
                                   </h2>
                                 </div>
                               </div>
@@ -641,8 +627,9 @@ export default function Home() {
                                 </div>
                                 <div className="title-box">
                                   <h2>
-                                  Ethical sourcing with<br />
-                                  full transparency 
+                                    Ethical sourcing with
+                                    <br />
+                                    full transparency
                                   </h2>
                                 </div>
                               </div>
@@ -658,8 +645,9 @@ export default function Home() {
                                 <div className="number-box">02</div>
                                 <div className="title-box2">
                                   <h2>
-                                  Ethical sourcing with<br />
-                                  full transparency 
+                                    Ethical sourcing with
+                                    <br />
+                                    full transparency
                                   </h2>
                                 </div>
                               </div>
@@ -686,9 +674,9 @@ export default function Home() {
                                 </div>
                                 <div className="title-box">
                                   <h2>
-                                  A strong brand image backed<br />
-                                  by years of experience. 
-                                   
+                                    A strong brand image backed
+                                    <br />
+                                    by years of experience.
                                   </h2>
                                 </div>
                               </div>
@@ -737,7 +725,7 @@ export default function Home() {
                     <div className="border-box" />
                   </div>
                   <h2 className="sec-title__title tg-element-title">
-                  End to End Support
+                    End to End Support
                   </h2>
                 </div>
                 <div className="row">
@@ -750,10 +738,7 @@ export default function Home() {
                     <div className="gallery-one__single">
                       <div className="gallery-one__single-img">
                         <div className="inner">
-                          <img
-                            src="assets/images/Container (1).png"
-                            alt="#"
-                          />
+                          <img src="assets/images/Container (1).png" alt="#" />
                           <div className="btn-box">
                             <a href="#">
                               <span className="icon-diagonal-arrow2" />
@@ -777,7 +762,8 @@ export default function Home() {
                           <a href="#">Product Design</a>
                         </h2>
                         <p>
-                        We design products from scratch to make sure your customers get to experience the ultimate
+                          We design products from scratch to make sure your
+                          customers get to experience the ultimate
                         </p>
                         <div className="btn-box">
                           <a href="#">
@@ -797,10 +783,7 @@ export default function Home() {
                     <div className="gallery-one__single">
                       <div className="gallery-one__single-img">
                         <div className="inner">
-                          <img
-                            src="assets/images/support.png"
-                            alt="#"
-                          />
+                          <img src="assets/images/support.png" alt="#" />
                           <div className="btn-box">
                             <a href="#">
                               <span className="icon-diagonal-arrow2" />
@@ -820,10 +803,7 @@ export default function Home() {
                     <div className="gallery-one__single">
                       <div className="gallery-one__single-img">
                         <div className="inner">
-                          <img
-                            src="assets/images/Container (2).png"
-                            alt="#"
-                          />
+                          <img src="assets/images/Container (2).png" alt="#" />
                           <div className="btn-box">
                             <a href="#">
                               <span className="icon-diagonal-arrow2" />
@@ -847,11 +827,13 @@ export default function Home() {
                           <a href="#">Sustainable Goods</a>
                         </h2>
                         <p>
-                        We ensure each step in our process is ethically sourced and sustainable.
+                          We ensure each step in our process is ethically
+                          sourced and sustainable.
                         </p>
                         <div className="btn-box">
                           <a href="#">
-                          Download our brochure <span className="icon-chevron" />
+                            Download our brochure{" "}
+                            <span className="icon-chevron" />
                           </a>
                         </div>
                       </div>
@@ -867,10 +849,7 @@ export default function Home() {
                     <div className="gallery-one__single">
                       <div className="gallery-one__single-img">
                         <div className="inner">
-                          <img
-                            src="assets/images/support1.png"
-                            alt="#"
-                          />
+                          <img src="assets/images/support1.png" alt="#" />
                           <div className="btn-box">
                             <a href="#">
                               <span className="icon-diagonal-arrow2" />
@@ -885,8 +864,9 @@ export default function Home() {
               </div>
             </section>
             {/*End Gallery One */}
-    
+
             {/*Start Testimonials One */}
+         
             <section className="testimonials-one">
               <div className="container">
                 <div className="testimonials-one__top">
@@ -909,290 +889,125 @@ export default function Home() {
                 </div>
                 <div className="row">
                   <div className="col-xl-12">
-                    <div className="testimonials-one__inner">
-                      <div
-                        className="owl-carousel owl-theme thm-owl__carousel testimonials-one__carousel"
-                        data-owl-options='{
-                                        "loop": true,
-                                        "autoplay": true,
-                                        "margin": 30,
-                                        "nav": true,
-                                        "dots": true,
-                                        "smartSpeed": 500,
-                                        "autoplayTimeout": 10000,
-                                        "navText": ["<span class=\"icon-arrow-right\"></span>","<span class=\"icon-arrow-left\"></span>"],
-                                        "responsive": {
-                                                "0": {
-                                                    "items": 1
-                                                },
-                                                "768": {
-                                                    "items": 1
-                                                },
-                                                "992": {
-                                                    "items": 1
-                                                },
-                                                "1200": {
-                                                    "items": 1
-                                                }
-                                            }
-                                        }'
-                      >
-                        {/*Start Testimonials One Single*/}
-                        <div className="testimonials-one__single">
-                          <div className="left-content">
-                            <div className="icon-box">
-                              <span className="icon-left-quote" />
-                            </div>
-                            <div className="text-box">
-                              <p>Ramitas Malika</p>
-                              <span>Co-Founder</span>
-                            </div>
-                          </div>
-                          <div className="right-content">
-                            <div className="text-box">
-                              <p>
-                                Dolor massa, a pellentesque nulla congue quis fusce
-                                convallis diam. Nam torister tempor faucibus imperdiet
-                                feli sed, vestibulligula. remove the politices for this
-                                projects marketing reserch business high levels in the
-                                process we try to best consultations in our work for
-                                futures..
-                              </p>
-                            </div>
-                            <div className="rating-box">
-                              <ul>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="img-box">
-                              <img
-                                src="assets/images/testimonial/testimonials-v1-img1.png"
-                                alt=""
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        {/*End Testimonials One Single*/}
-                        {/*Start Testimonials One Single*/}
-                        <div className="testimonials-one__single">
-                          <div className="left-content">
-                            <div className="icon-box">
-                              <span className="icon-left-quote" />
-                            </div>
-                            <div className="text-box">
-                              <p>Ramitas Malika</p>
-                              <span>Co-Founder</span>
-                            </div>
-                          </div>
-                          <div className="right-content">
-                            <div className="text-box">
-                              <p>
-                                Dolor massa, a pellentesque nulla congue quis fusce
-                                convallis diam. Nam torister tempor faucibus imperdiet
-                                feli sed, vestibulligula. remove the politices for this
-                                projects marketing reserch business high levels in the
-                                process we try to best consultations in our work for
-                                futures..
-                              </p>
-                            </div>
-                            <div className="rating-box">
-                              <ul>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="img-box">
-                              <img
-                                src="assets/images/testimonial/testimonials-v1-img1.png"
-                                alt=""
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        {/*End Testimonials One Single*/}
-                        {/*Start Testimonials One Single*/}
-                        <div className="testimonials-one__single">
-                          <div className="left-content">
-                            <div className="icon-box">
-                              <span className="icon-left-quote" />
-                            </div>
-                            <div className="text-box">
-                              <p>Ramitas Malika</p>
-                              <span>Co-Founder</span>
-                            </div>
-                          </div>
-                          <div className="right-content">
-                            <div className="text-box">
-                              <p>
-                                Dolor massa, a pellentesque nulla congue quis fusce
-                                convallis diam. Nam torister tempor faucibus imperdiet
-                                feli sed, vestibulligula. remove the politices for this
-                                projects marketing reserch business high levels in the
-                                process we try to best consultations in our work for
-                                futures..
-                              </p>
-                            </div>
-                            <div className="rating-box">
-                              <ul>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                                <li>
-                                  <span className="icon-pointed-star" />
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="img-box">
-                              <img
-                                src="assets/images/testimonial/testimonials-v1-img1.png"
-                                alt=""
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        {/*End Testimonials One Single*/}
-                      </div>
-                    </div>
+                  <div>
+  
+      <TestimonialsCarousel />
+    </div>
+
+
+
                   </div>
                 </div>
               </div>
             </section>
-            {/*End Testimonials One */}
+
             <section className="contact-page">
-  <div className="container">
-    <div className="row">
-      {/*Start Contact Page Map*/}
-      <div className="col-xl-5">
-        <div className="contact-page-google-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
-            className="contact-page-google-map__one"
-            allowFullScreen=""
-          />
-        </div>
-      </div>
-      {/*End Contact Page Map*/}
-      {/*Start Contact One Form*/}
-      <div className="col-xl-7">
-        <div className="contact-one__form">
-          <div className="sec-title tg-heading-subheading animation-style2">
-            <div className="sec-title__tagline">
-              <p className="tg-element-title">contact</p>
-              <div className="border-box" />
-            </div>
-            <h2 className="sec-title__title tg-element-title">
-            For Inquariy  
-            </h2>
-          </div>
-          <form
-            id="contact-form"
-            className="default-form2 contact-form-validated"
-            action="https://unicktheme.com/baosh/assets/inc/sendemail.php"
-            noValidate="novalidate"
-          >
-            <div className="row">
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <div className="input-box">
-                  <input
-                    type="text"
-                    name="name"
-                    defaultValue=""
-                    placeholder="NAME *"
-                    required=""
-                  />
+              <div className="container">
+                <div className="row">
+                  {/*Start Contact Page Map*/}
+                  <div className="col-xl-5">
+                    <div className="contact-page-google-map">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+                        className="contact-page-google-map__one"
+                        allowFullScreen=""
+                      />
+                    </div>
+                  </div>
+                  {/*End Contact Page Map*/}
+                  {/*Start Contact One Form*/}
+                  <div className="col-xl-7">
+                    <div className="contact-one__form">
+                      <div className="sec-title tg-heading-subheading animation-style2">
+                        <div className="sec-title__tagline">
+                          <p className="tg-element-title">contact</p>
+                          <div className="border-box" />
+                        </div>
+                        <h2 className="sec-title__title tg-element-title">
+                          For Inquariy
+                        </h2>
+                      </div>
+                      <form
+                        id="contact-form"
+                        className="default-form2 contact-form-validated"
+                        action="https://unicktheme.com/baosh/assets/inc/sendemail.php"
+                        noValidate="novalidate"
+                      >
+                        <div className="row">
+                          <div className="col-xl-6 col-lg-6 col-md-6">
+                            <div className="input-box">
+                              <input
+                                type="text"
+                                name="name"
+                                defaultValue=""
+                                placeholder="NAME *"
+                                required=""
+                              />
+                            </div>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6">
+                            <div className="input-box">
+                              <input
+                                type="email"
+                                name="email"
+                                defaultValue=""
+                                placeholder="EMAIL *"
+                                required=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div className="col-xl-6 col-lg-6 col-md-6">
+                            <div className="input-box">
+                              <input
+                                type="text"
+                                placeholder="PHONE *"
+                                name="phone"
+                              />
+                            </div>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6">
+                            <div className="input-box">
+                              <input
+                                type="text"
+                                placeholder="SUBJECT *"
+                                name="subject"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="row">
+                          <div className="col-xl-12">
+                            <div className="input-box">
+                              <textarea
+                                name="message"
+                                placeholder="WRITE YOUR MESSAGE *"
+                                defaultValue={""}
+                              />
+                            </div>
+                          </div>
+                          <div className="col-xl-6 col-lg-6 col-md-6">
+                            <div className="contact-one__form-btn">
+                              <button
+                                className="thm-btn"
+                                type="submit"
+                                data-loading-text="Please wait..."
+                              >
+                                <span className="txt">submit</span>
+                                <span className="bdrl" />
+                                <span className="bdrr" />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  {/*End Contact One Form*/}
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <div className="input-box">
-                  <input
-                    type="email"
-                    name="email"
-                    defaultValue=""
-                    placeholder="EMAIL *"
-                    required=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <div className="input-box">
-                  <input type="text" placeholder="PHONE *" name="phone" />
-                </div>
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <div className="input-box">
-                  <input type="text" placeholder="SUBJECT *" name="subject" />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-xl-12">
-                <div className="input-box">
-                  <textarea
-                    name="message"
-                    placeholder="WRITE YOUR MESSAGE *"
-                    defaultValue={""}
-                  />
-                </div>
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <div className="contact-one__form-btn">
-                  <button
-                    className="thm-btn"
-                    type="submit"
-                    data-loading-text="Please wait..."
-                  >
-                    <span className="txt">submit</span>
-                    <span className="bdrl" />
-                    <span className="bdrr" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      {/*End Contact One Form*/}
-    </div>
-  </div>
-</section>
+            </section>
             {/*Start Slogan One */}
             <section className="slogan-one">
               <div className="auto-container">
@@ -1254,7 +1069,7 @@ export default function Home() {
                             <p>Send email</p>
                             <h3>
                               <a href="mailto:yourmail@email.com">
-                                baosh@company.com
+                               mishael@company.com
                               </a>
                             </h3>
                           </div>
@@ -1317,7 +1132,11 @@ export default function Home() {
                       <div className="border-box" />
                     </div>
                     <div className="footer-one__copyright">
-                      <p>Copyright © 2024<br/>all rights reserved.</p>
+                      <p>
+                        Copyright © 2024
+                        <br />
+                        all rights reserved.
+                      </p>
                     </div>
                     <div className="scroll-to-top-box">
                       <a
@@ -1345,7 +1164,7 @@ export default function Home() {
               </span>
               <div className="logo-box">
                 <a href="index.html" aria-label="logo image">
-                  <img src="assets/images/resources/logo-1.png" alt="" />
+                  <img src="assets/images/Mishael.png" alt="" />
                 </a>
               </div>
               <div className="mobile-nav__container" />
@@ -1387,6 +1206,7 @@ export default function Home() {
           </div>
         </>
       </main>
+       
 
       <Scripts />
     </>

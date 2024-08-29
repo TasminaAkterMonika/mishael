@@ -503,7 +503,7 @@ img {
 }
 
 .scroll-to-top-box a {
-  color: #ffffff;
+  color: #FCB116;
 }
 
 .scroll-to-top-box .border-box {
@@ -2271,7 +2271,8 @@ Main Header Two
 }
 
 .main-header-two .main-menu-one .auto-container {
-  max-width: 1630px;
+  /* max-width: 1630px; */
+  max-width: 1800px;
   width: 100%;
 }
 
