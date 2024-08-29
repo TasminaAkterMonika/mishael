@@ -247,9 +247,9 @@ export default function Home() {
                           <div className="title">
                             <h2>
                               Sustainable <br />
-                              <span className="icon-right-arrow-1" /> Creative{" "}
+                              Style{" "}
                               <br />
-                              Style
+                             Everyday
                             </h2>
                           </div>
                         </div>
@@ -270,7 +270,7 @@ export default function Home() {
                       <div className="main-slider-one__single">
                         <div className="main-slider-one__img">
                           <img
-                            src="assets/images/slides/slider-v1-img1.jpg"
+                            src="assets/images/slider-v1-img1.jpg.png"
                             alt="#"
                           />
                         </div>
@@ -292,9 +292,9 @@ export default function Home() {
                           <div className="title">
                             <h2>
                               Sustainable <br />
-                              <span className="icon-right-arrow-1" /> Creative{" "}
+                             Style{" "}
                               <br />
-                              Style
+                              Everyday
                             </h2>
                           </div>
                         </div>
@@ -302,233 +302,11 @@ export default function Home() {
                     </div>
                   </div>
                   {/*End Main Slider One*/}
-                  {/*Start Main Slider One*/}
-                  <div className="swiper-slide">
-                    <div
-                      className="image-layer"
-                      style={{
-                        backgroundImage:
-                          "url(assets/images/slides/slider-v1-bg.jpg)",
-                      }}
-                    ></div>
-                    <div className="auto-container">
-                      <div className="main-slider-one__single">
-                        <div className="main-slider-one__img">
-                          <img
-                            src="assets/images/slides/slider-v1-img1.jpg"
-                            alt="#"
-                          />
-                        </div>
-                        <div className="main-slider-one__content">
-                          {/* <ul className="social-links">
-                        <li>
-                          <a href="#">Fb.</a>
-                        </li>
-                        <li>
-                          <a href="#">Tw.</a>
-                        </li>
-                        <li>
-                          <a href="#">In.</a>
-                        </li>
-                        <li>
-                          <a href="#">Be.</a>
-                        </li>
-                      </ul>*/}
-                          <div className="title">
-                            <h2>
-                              Sustainable <br />
-                              <span className="icon-right-arrow-1" /> Creative{" "}
-                              <br />
-                              Style
-                            </h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              
+             
                   {/*End Main Slider One*/}
                   {/*Start Main Slider One*/}
-                  <div className="swiper-slide">
-                    <div
-                      className="image-layer"
-                      style={{
-                        backgroundImage:
-                          "url(assets/images/slides/slider-v1-bg.jpg)",
-                      }}
-                    ></div>
-                    <div className="auto-container">
-                      <div className="main-slider-one__single">
-                        <div className="main-slider-one__img">
-                          <img
-                            src="assets/images/slides/slider-v1-img1.jpg"
-                            alt="#"
-                          />
-                        </div>
-                        <div className="main-slider-one__content">
-                          {/* <ul className="social-links">
-                        <li>
-                          <a href="#">Fb.</a>
-                        </li>
-                        <li>
-                          <a href="#">Tw.</a>
-                        </li>
-                        <li>
-                          <a href="#">In.</a>
-                        </li>
-                        <li>
-                          <a href="#">Be.</a>
-                        </li>
-                      </ul>*/}
-                          <div className="title">
-                            <h2>
-                              Sustainable <br />
-                              <span className="icon-right-arrow-1" /> Creative{" "}
-                              <br />
-                              Style
-                            </h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/*End Main Slider One*/}
-                  {/*Start Main Slider One*/}
-                  <div className="swiper-slide">
-                    <div
-                      className="image-layer"
-                      style={{
-                        backgroundImage:
-                          "url(assets/images/slides/slider-v1-bg.jpg)",
-                      }}
-                    ></div>
-                    <div className="auto-container">
-                      <div className="main-slider-one__single">
-                        <div className="main-slider-one__img">
-                          <img
-                            src="assets/images/slides/slider-v1-img1.jpg"
-                            alt="#"
-                          />
-                        </div>
-                        <div className="main-slider-one__content">
-                          {/*  <ul className="social-links">
-                        <li>
-                          <a href="#">Fb.</a>
-                        </li>
-                        <li>
-                          <a href="#">Tw.</a>
-                        </li>
-                        <li>
-                          <a href="#">In.</a>
-                        </li>
-                        <li>
-                          <a href="#">Be.</a>
-                        </li>
-                      </ul>*/}
-                          <div className="title">
-                            <h2>
-                              Sustainable
-                              <br />
-                              <span className="icon-right-arrow-1" /> Creative{" "}
-                              <br />
-                              Style
-                            </h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/*End Main Slider One*/}
-                  {/*Start Main Slider One*/}
-                  <div className="swiper-slide">
-                    <div
-                      className="image-layer"
-                      style={{
-                        backgroundImage:
-                          "url(assets/images/slides/slider-v1-bg.jpg)",
-                      }}
-                    ></div>
-                    <div className="auto-container">
-                      <div className="main-slider-one__single">
-                        <div className="main-slider-one__img">
-                          <img
-                            src="assets/images/slides/slider-v1-img1.jpg"
-                            alt="#"
-                          />
-                        </div>
-                        <div className="main-slider-one__content">
-                          {/* <ul className="social-links">
-                        <li>
-                          <a href="#">Fb.</a>
-                        </li>
-                        <li>
-                          <a href="#">Tw.</a>
-                        </li>
-                        <li>
-                          <a href="#">In.</a>
-                        </li>
-                        <li>
-                          <a href="#">Be.</a>
-                        </li>
-                      </ul>*/}
-                          <div className="title">
-                            <h2>
-                              Sustainable
-                              <br />
-                              <span className="icon-right-arrow-1" /> Creative{" "}
-                              <br />
-                              Style
-                            </h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/*End Main Slider One*/}
-                  {/*Start Main Slider One*/}
-                  <div className="swiper-slide">
-                    <div
-                      className="image-layer"
-                      style={{
-                        backgroundImage:
-                          "url(assets/images/slides/slider-v1-bg.jpg)",
-                      }}
-                    ></div>
-                    <div className="auto-container">
-                      <div className="main-slider-one__single">
-                        <div className="main-slider-one__img">
-                          <img
-                            src="assets/images/slides/slider-v1-img1.jpg"
-                            alt="#"
-                          />
-                        </div>
-                        <div className="main-slider-one__content">
-                          {/* <ul className="social-links">
-                        <li>
-                          <a href="#">Fb.</a>
-                        </li>
-                        <li>
-                          <a href="#">Tw.</a>
-                        </li>
-                        <li>
-                          <a href="#">In.</a>
-                        </li>
-                        <li>
-                          <a href="#">Be.</a>
-                        </li>
-                      </ul>*/}
-                          <div className="title">
-                            <h2>
-                              Sustainable
-                              <br />
-                              <span className="icon-right-arrow-1" /> Creative{" "}
-                              <br />
-                              Style
-                            </h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                 
                   {/*End Main Slider One*/}
                 </div>
                 {/* <div className="project-one__control-wrap">
@@ -545,17 +323,23 @@ export default function Home() {
             {/*End Main Slider*/}
             {/*Start Brand One */}
             <section className="brand-one">
+            
               <div className="auto-container">
                 <div className="brand-one__inner">
                   <ul>
+      
                     <li>
-                      <a className="logo-container-text">
-                      <img src="assets/images/Mas AI File-01 (1) 1 (1).png" alt="Brand Logo" className="logo-image" />
+                     {/*<a href="#">
+                    
+                      <img src="assets/images/Mas AI File-01 (1) 1 (1).png" alt="Brand Logo" className="logo-text" />*/}
+                     
+                      <a href="#">
+                      
                       <h1 className="logo-text">MAS</h1>
                       </a>
                     </li>
                     <li>
-                      <a className="logo-container-text">
+                     <a href="#">
                       
                         <h1 className="logo-text">Sauve</h1>
                       </a>
@@ -1101,6 +885,7 @@ export default function Home() {
               </div>
             </section>
             {/*End Gallery One */}
+    
             {/*Start Testimonials One */}
             <section className="testimonials-one">
               <div className="container">
@@ -1128,29 +913,29 @@ export default function Home() {
                       <div
                         className="owl-carousel owl-theme thm-owl__carousel testimonials-one__carousel"
                         data-owl-options='{
-                                  "loop": true,
-                                  "autoplay": true,
-                                  "margin": 30,
-                                  "nav": true,
-                                  "dots": true,
-                                  "smartSpeed": 500,
-                                  "autoplayTimeout": 10000,
-                                  "navText": ["<span class=\"icon-arrow-right\"></span>","<span class=\"icon-arrow-left\"></span>"],
-                                  "responsive": {
-                                          "0": {
-                                              "items": 1
-                                          },
-                                          "768": {
-                                              "items": 1
-                                          },
-                                          "992": {
-                                              "items": 1
-                                          },
-                                          "1200": {
-                                              "items": 1
-                                          }
-                                      }
-                                  }'
+                                        "loop": true,
+                                        "autoplay": true,
+                                        "margin": 30,
+                                        "nav": true,
+                                        "dots": true,
+                                        "smartSpeed": 500,
+                                        "autoplayTimeout": 10000,
+                                        "navText": ["<span class=\"icon-arrow-right\"></span>","<span class=\"icon-arrow-left\"></span>"],
+                                        "responsive": {
+                                                "0": {
+                                                    "items": 1
+                                                },
+                                                "768": {
+                                                    "items": 1
+                                                },
+                                                "992": {
+                                                    "items": 1
+                                                },
+                                                "1200": {
+                                                    "items": 1
+                                                }
+                                            }
+                                        }'
                       >
                         {/*Start Testimonials One Single*/}
                         <div className="testimonials-one__single">
@@ -1166,12 +951,11 @@ export default function Home() {
                           <div className="right-content">
                             <div className="text-box">
                               <p>
-                                Dolor massa, a pellentesque nulla congue quis
-                                fusce convallis diam. Nam torister tempor
-                                faucibus imperdiet feli sed, vestibulligula.
-                                remove the politices for this projects marketing
-                                reserch business high levels in the process we
-                                try to best consultations in our work for
+                                Dolor massa, a pellentesque nulla congue quis fusce
+                                convallis diam. Nam torister tempor faucibus imperdiet
+                                feli sed, vestibulligula. remove the politices for this
+                                projects marketing reserch business high levels in the
+                                process we try to best consultations in our work for
                                 futures..
                               </p>
                             </div>
@@ -1217,12 +1001,11 @@ export default function Home() {
                           <div className="right-content">
                             <div className="text-box">
                               <p>
-                                Dolor massa, a pellentesque nulla congue quis
-                                fusce convallis diam. Nam torister tempor
-                                faucibus imperdiet feli sed, vestibulligula.
-                                remove the politices for this projects marketing
-                                reserch business high levels in the process we
-                                try to best consultations in our work for
+                                Dolor massa, a pellentesque nulla congue quis fusce
+                                convallis diam. Nam torister tempor faucibus imperdiet
+                                feli sed, vestibulligula. remove the politices for this
+                                projects marketing reserch business high levels in the
+                                process we try to best consultations in our work for
                                 futures..
                               </p>
                             </div>
@@ -1268,12 +1051,11 @@ export default function Home() {
                           <div className="right-content">
                             <div className="text-box">
                               <p>
-                                Dolor massa, a pellentesque nulla congue quis
-                                fusce convallis diam. Nam torister tempor
-                                faucibus imperdiet feli sed, vestibulligula.
-                                remove the politices for this projects marketing
-                                reserch business high levels in the process we
-                                try to best consultations in our work for
+                                Dolor massa, a pellentesque nulla congue quis fusce
+                                convallis diam. Nam torister tempor faucibus imperdiet
+                                feli sed, vestibulligula. remove the politices for this
+                                projects marketing reserch business high levels in the
+                                process we try to best consultations in our work for
                                 futures..
                               </p>
                             </div>
@@ -1411,10 +1193,6 @@ export default function Home() {
     </div>
   </div>
 </section>
-
-
-         
-         
             {/*Start Slogan One */}
             <section className="slogan-one">
               <div className="auto-container">

@@ -8,12 +8,15 @@ const Scripts = () => {
         src="/assets/vendors/jquery/jquery-3.6.0.min.js"
         strategy="beforeInteractive"
       />
+      <Script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js" strategy="lazyOnload" />
+      <Script src="/assets/bootstrap-select/js/bootstrap-select.min.js" strategy="lazyOnload" />
 
       <Script src="/assets/vendors/isotope/isotope.js" strategy="lazyOnload" />
       <Script
         src="/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"
         strategy="lazyOnload"
       />
+
       <Script
         src="/assets/vendors/jquery-appear/jquery.appear.min.js"
         strategy="lazyOnload"
@@ -60,6 +63,11 @@ const Scripts = () => {
         strategy="lazyOnload"
       />
       <Script src="/assets/js/custom.js" strategy="lazyOnload" />
+      <Script
+      src="/assets/vendors/gsap/SplitText.js"
+      strategy="lazyOnload"
+    />
+    <Script src="assets/vendors/gsap/ScrollTrigger.js" strategy="lazyOnload" />
     </React.Fragment>
   );
 };

@@ -313,7 +313,7 @@ li {
   display: inline-block;
   border-radius: 0px;
   padding: 14px 40px 13px;
-  color: #d0c9c9;
+  color: #FCB116;
   font-size: 18px;
   font-weight: 500;
   background: transparent;
@@ -414,7 +414,7 @@ li {
 
 .thm-btn:hover,
 .thm-btn:focus {
-  color: #ffffff;
+  color: #FCB116;
 }
 
 /***
@@ -3799,7 +3799,7 @@ Gallery One
   position: relative;
   display: flex;
   align-items: center;
-  color: #d0c9c9;
+  color: #fcb116;
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
